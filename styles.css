@@ -83,61 +83,61 @@ nav ul li:hover {
 	background-color: rgb(230, 156, 36);
 }
 
-table {
-	table-layout: fixed;
-	border-collapse: collapse;
-	border: 3px solid purple;
-	width: 75%;
-	background-color: rgb(58, 100, 134);
-  }
-
-h2 {
-	font-size: 40px;
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 50px;
-	color: white;
-}
-
-table, td {
-	border: 2px solid black;
-}
-
-.table-div {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-top: 10px;
-}
-
-.table-buttons {
-	margin: 0 12.5%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.add-book-button {
-	width: 100px;
-	height: 30px;
-}
-
-.dropdown-button {
-	width: 100px;
-	height: 30px;
-}
-
 button {
 	background: rgb(230, 156, 36);
 }
 
-td {
-	color: rgb(239, 237, 237);
+.homepage-div {
+	/* height: 90%;
+	width: 100vw; */
+	/* display: flex;  */
+	/* flex: 1 1 auto;
+	position: relative; */
+	/* text-align: center; */
+	width: 100vw;
+	/* justify-content: space-between;  */
+	/* background-color: gold; */
 }
 
-td, th {
-	padding-left: 5px;
+main div img {
+	/* width: 5%;
+	height: 100%; */
+	/* width: 50%; */
+	display: inline-block;
+	width: 49%;
+	margin-top: 35px;
 }
 
-th {
-	color: black /* rgb(230, 156, 36);*/
+h2 {
+	font-size: 5rem;
+	color: white;
+	/* position: absolute; */
+	/* display: inline-block; */
+  	/* top: 30px;
+  	left: 35%; */
 }
+
+h3 {
+	color:white;
+	font-size: 25px;
+	text-align: left;
+	width: 70%;
+	padding-left: 15%;
+}
+
+.homepage-text-div {
+	display: inline-block;
+	width: 50%;
+	align-items: top;
+	top: 20%;
+	position: absolute;
+	text-align: center;
+}
+
+/* .homepage-text-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 8vw; 
+	 align-items: space-between; 
+} */
